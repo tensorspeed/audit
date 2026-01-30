@@ -1,0 +1,54 @@
+# Python / TensorFlow ignores
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+tf_gpu_env/
+*.egg-info/
+dist/
+build/
+
+# Large ML model & checkpoint files – NEVER commit these
+*.h5
+*.hdf5
+*.keras
+*.ckpt
+*.ckpt.index
+*.pb
+*.tflite
+*.onnx
+*.pth
+*.pt
+*.weights
+*.safetensors
+
+# TensorFlow / Keras caches & outputs
+.keras/
+.tensorflow/
+tf_logs/
+logs/
+checkpoints/
+models/
+data/
+datasets/
+wandb/
+mlruns/
+
+# Plots & images (if generated)
+*.png
+*.jpg
+*.jpeg
+learning_curves.png
+
+# Editor / OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
